@@ -171,9 +171,9 @@ main.container-fluid {
 #trabajos i.fab{
 	margin-right: .5rem;
 }
-#trabajos .card-title>a{
-	color: inherit;
-
+#trabajos a:not(a.btn){
+	color: var(--color-principal);
+	/* text-decoration: none; */
 }
 /** Seccion CONTACTAME */
 
