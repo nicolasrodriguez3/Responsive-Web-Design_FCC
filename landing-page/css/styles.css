@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,700&display=swap");
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Lato", sans-serif;
+	background-color: #f3e9ff;
+	color: #222;
+}
+
+#navbarNav {
+	flex-grow: 0;
+}
+#nav-links {
+	justify-content: space-between;
+}
+
+.destacado{
+    font-size: 1.2rem;
+}
+
+@media (min-width: 576px) {
+	.img-botella {
+		margin: 15px;
+		min-width: 300px;
+	}
+}
+
+.video-wrapper {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+}
+#video {
+	max-width: 100%;
+}
+
+.mt-6 {
+	margin-top: 120px;
+}
+header.navbar {
+	background-color: #f3e9ff;
+}
+nav li.nav-item {
+	font-size: 1.1rem;
+}
+
+.imagenes img {
+    margin: 0 auto;
+    display: block;
+
+    width: 100%;
+    transition: all 0.5s;
+}
+.imagenes img:hover {
+    transform: scale(1.1);
+}
+.imagenes figure {
+    
+    overflow: hidden;
+}
+.img-centro {
+    max-width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,87 @@
+:root {
+    --font1: "Source Sans Pro", sans-serif;
+    --font2: "Roboto", sans-serif;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@300;400;600&display=swap");
+  
+  * {
+    font-family: var(--font1);
+    color: hsl(0, 0%, 20%);
+  }
+
+  
+  #main {
+    background-color: hsl(0, 0%, 96%);
+
+    margin: 0 auto;
+    padding: 20px 0px 0.8rem 0px;
+  }
+  
+  #header {
+    margin: 0 auto;
+    text-align: center;
+  }
+  #header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  #container {
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background-color: white;
+    margin: 0 auto;
+    padding: 2rem 5rem 0rem 5rem;
+    max-width: 90%;
+    text-align: center;
+    box-sizing: content-box;
+  }
+  
+  #image {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1024px;
+  }
+  #img-caption {
+    padding: 0rem 0 1rem 0;
+  }
+  
+  #tribute-info {
+    width: 80vw;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #tribute-info h3 {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  #timeline li {
+    margin: 1.1rem 0;
+    line-height: 25px;
+  }
+  
+  #cite {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+  
+  blockquote {
+      font-style: italic;
+  }
+
+  #read-more {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  #tribute-link {
+    color: hsl(178, 100%, 40%);
+  }
+  
